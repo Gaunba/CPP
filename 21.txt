@@ -1,0 +1,128 @@
+#include <iostream>
+#include <algorithm>
+#define s 7
+using namespace std;
+
+
+int main() {
+	setlocale(0, "");
+obnul:
+	int arr[s]{};
+
+	for (unsigned short i = 0; i < s; i++)
+	{
+		cout << "Введите " << i + 1 << " элемент массива: ";
+		cin >> arr[i];
+	}
+	system("cls");
+
+menu:
+	unsigned short menu;
+	unsigned short ch;
+
+	cout << "[~] Работа с массивами!" << endl << endl;
+	cout << "[1] Сортировка по возрастанию" << endl;
+	cout << "[2] Сортировка по убыванию" << endl;
+	cout << "[3] Перемножить массив" << endl;
+	cout << "[4] Сложить массив" << endl;
+	cout << "[5] Разделить массив" << endl;
+	cout << "[6] Обнулить массив" << endl;
+	cout << "[9] Задать новые значения массива" << endl;
+	cout << endl;
+
+	cout << "[+] Ввод: ";
+
+	cin >> menu;
+	system("cls");
+	switch (menu)
+	{
+	case 1:
+
+		sort(begin(arr), end(arr));
+		for (unsigned short i = 0; i < s; i++)
+		{
+			cout << i + 1 << " элемент массива: " << arr[i] << endl;
+		}
+		system("pause");
+		system("cls");
+		goto menu;
+		break;
+	case 2:
+		sort(begin(arr), end(arr), greater<int>());
+		for (unsigned short i = 0; i < s; i++)
+		{
+			cout << i + 1 << " элемент массива: " << arr[i] << endl;
+		}
+		system("pause");
+		system("cls");
+		goto menu;
+		break;
+	case 3:
+		cout << "Введите число: ";
+		cin >> ch;
+		for (unsigned short i = 0; i < s; i++)
+		{
+			cout << i + 1 << " элемент мвссива: " << arr[i] * ch << endl;
+			arr[i] *= ch;
+		}
+		system("pause");
+		system("cls");
+		goto menu;
+		break;
+	case 4:
+		cout << "Введите число: ";
+		cin >> ch;
+		for (unsigned short i = 0; i < s; i++)
+		{
+			cout << i + 1 << " элемент мвссива: " << arr[i] + ch << endl;
+			arr[i] += ch;
+		}
+		system("pause");
+		system("cls");
+		goto menu;
+		break;
+	case 5:
+		cout << "Введите число: ";
+		cin >> ch;
+		for (short i = 0; i < s; i++)
+		{
+			cout << i + 1 << " элкмент массива: " << arr[i] / ch << endl;
+			arr[i] /= ch;
+		}
+		system("pause");
+		system("cls");
+		goto menu;
+		break;
+	case 6:
+		for (short i = 0; i < s; i++)
+		{
+			cout << i + 1 << " элкмент массива: " << arr[i] * 0 << endl;
+			arr[i] = 0;
+		}
+		
+		system("pause");
+		system("cls");
+		goto menu;
+		break;
+	case 9:
+		goto obnul;
+		break;
+	default:
+		cout << "Мустафа - Ошибка!" << endl;
+		system("pause");
+		system("cls");
+		goto menu;
+		break;
+	}
+
+
+
+
+
+
+
+
+	int _;
+	cin >> _;
+	return 0;
+}

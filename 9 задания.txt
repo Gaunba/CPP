@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	setlocale(0, "");
+	start:
+cout << "Введите число от 1 до 15" << endl;
+		cout << "[0] Выйти" << endl;
+		int chislo;
+		int cycle = 1;
+		cin >> chislo;
+		if (chislo == 0) {
+			goto start;
+		}
+		else if (chislo < 1 || chislo > 15) {
+			cout << "Такое число по условию вводить нельзя" << endl;
+			goto start;
+		}
+		while (cycle <= chislo) {
+			cout << "Цикл отработал. Круг: " << cycle << endl;
+			cycle += 1;
+		}
+		if (cycle > chislo) {
+			goto start;
+		}
+	int _;
+	cin >> _;
+	return 0;
+}

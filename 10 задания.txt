@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	setlocale(0, "");
+	start:
+cout << "[1]Линия" << endl;
+		cout << "Выберите фигуру: ";
+		int figure;
+		cin >> figure;
+		system("cls");
+		cout << "[1]Горизонтальная" << endl;
+		cout << "[2]Вертикальная" << endl;
+		cout << "Выберите тип: ";
+		int type;
+		cin >> type;
+		cout << "Задайте длину линии: ";
+		int cycl = 0;
+		int length;
+		cin >> length;
+		if (length < 1 || length > 60) {
+			cout << "Задайте более корректную длину линии" << endl;
+			goto start;
+		}
+		cout << "Задайте текстуру линии: ";
+		char texture;
+		cin >> texture;
+		if (type == 1) {
+			while (cycl < length) {
+				cout << texture;
+				cycl += 1;
+			}
+		}
+		else if (type == 2) {
+			while (cycl < length) {
+				cout << texture << endl;
+				cycl += 1;
+			}
+		}
+	int _;
+	cin >> _;
+	return 0;
+}

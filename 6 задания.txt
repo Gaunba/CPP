@@ -1,0 +1,80 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+start:	
+	cout << "[1]Январь" << endl;
+		cout << "[2]Февраль" << endl;
+		cout << "[3]Март" << endl;
+		cout << "[4]Апрель" << endl;
+		cout << "[5]Май" << endl;
+		cout << "[6]Июнь" << endl;
+		cout << "[7]Июль" << endl;
+		cout << "[8]Август" << endl;
+		cout << "[9]Сентябрь" << endl;
+		cout << "[10]Октябрь" << endl;
+		cout << "[11]Ноябрь" << endl;
+		cout << "[12]Декабрь" << endl;
+		cout << "Выберите месяц: ";
+		int mounth;
+		cin >> mounth;
+		switch (mounth) {
+		case 0:
+			system("cls");
+			goto start;
+			break;
+		case 1:
+			cout << "Самый холодный месяц в году" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << "Самый короткий месяц в году" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << "С этим месяцем приходит весна, а снег начинает таять" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << "Тёплый месяц, но временами всё ещё холодно" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << "Всё начинает цвести и готовиться к лету" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << "Первый месяц лета и летних каникул" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << "Самый тёплый месяц в году" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << "Последний месяц летних каникул" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << "Начинаются холода и школбная пора" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << "Очень дождливый месяц" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << "Предзимний месяц, временами падает снег" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << "Месяц, заканчивающий год" << endl;
+			goto start;
+			break;
+		}
+	int _;
+	cin >> _;
+	return 0;
+}

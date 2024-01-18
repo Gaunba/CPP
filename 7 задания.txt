@@ -1,0 +1,1618 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+start:
+	cout << "[0]Выход" << endl;
+	cout << "[1]Январь" << endl;
+	cout << "[2]Февраль" << endl;
+	cout << "[3]Март" << endl;
+	cout << "[4]Апрель" << endl;
+	cout << "[5]Май" << endl;
+	cout << "[6]Июнь" << endl;
+	cout << "[7]Июль" << endl;
+	cout << "[8]Август" << endl;
+	cout << "[9]Сентябрь" << endl;
+	cout << "[10]Октябрь" << endl;
+	cout << "[11]Ноябрь" << endl;
+	cout << "[12]Декабрь" << endl;
+	cout << "Выберите месяц: ";
+	int num_of_mounth;
+	int day_of_mounth;
+	cin >> num_of_mounth;
+	switch (num_of_mounth) {
+	case 0:
+		system("cls");
+		goto start;
+		break;
+	case 1:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		case 31:
+			cout << day_of_mounth << " Января" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В январе нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 2:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Февраля" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В феврале нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 3:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		case 31:
+			cout << day_of_mounth << " Марта" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В марте нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 4:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Апреля" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В апреле нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 5:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		case 31:
+			cout << day_of_mounth << " Май" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В мае нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 6:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Июня" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В июне нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 7:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		case 31:
+			cout << day_of_mounth << " Июля" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В июле нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 8:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		case 31:
+			cout << day_of_mounth << " Августа" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В августе нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 9:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Сентября" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В сентябре нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 10:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		case 31:
+			cout << day_of_mounth << " Октября" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В октябре нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 11:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Ноября" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В ноябре нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	case 12:
+		cout << "Выберите день месяца: ";
+		cin >> day_of_mounth;
+		switch (day_of_mounth) {
+		case 1:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 2:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 3:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 4:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 5:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 6:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 7:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 8:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 9:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 10:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 11:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 12:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 13:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 14:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 15:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 16:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 17:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 18:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 19:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 20:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 21:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 22:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 23:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 24:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 25:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 26:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 27:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 28:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 29:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 30:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		case 31:
+			cout << day_of_mounth << " Декабря" << endl;
+			goto start;
+			break;
+		default:
+			cout << "В декабре нет такого дня" << endl;
+			goto start;
+			break;
+		}
+		break;
+	default:
+		cout << "Такого месяца не существует" << endl;
+		goto start;
+		break;
+	}
+	int _;
+	cin >> _;
+
+	return 0;
+}
+

@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	setlocale(0, "");
+
+cout << "Выберите время года" << endl;
+start:
+		cout << "[1] Зима" << endl;
+		cout << "[2] Весна" << endl;
+		cout << "[3] Лето" << endl;
+		cout << "[4] Осень" << endl;
+		int season;
+		cin >> season;
+		if (season == 1) {
+			cout << "Зима: На улице очень холодно, поэтому стоит утеплиться" << endl;
+			cout << "" << endl;
+			goto start;
+		}
+		else if (season == 2) {
+			cout << "Весна: На улице уже теплеет, однако временами всё еще холодно" << endl;
+			cout << "" << endl;
+			goto start;
+		}
+		else if (season == 3) {
+			cout << "Лето: На улице очень тепло, можно одеться легко" << endl;
+			cout << "" << endl;
+			goto start;
+		}
+		else if (season == 4) {
+			cout << "Осень: На улице становится холодно, снова нужно одеваться потеплее" << endl;
+			cout << "" << endl;
+			goto start;
+		}
+		else if (season > 4 || season < 1) {
+			cout << "В меню нет такого пункта" << endl;
+			cout << "" << endl;
+			goto start;
+		}
+	
+int _;
+	cin >> _;
+	return 0;
+}

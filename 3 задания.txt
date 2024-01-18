@@ -1,0 +1,60 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	start:
+	cout << "Введите любое число в диапозоне [0-100]" << endl;
+	int number;
+	cin >> number;
+	if (number >= 0 && number <= 10) {
+		cout << "Число [" << number << "] находится в диапозоне [0-10]" << endl;
+		cout << "" << endl;
+		goto start;
+	}
+	else if (number >= 11 && number <= 20) {
+		cout << "Число [" << number << "] находится в диапозоне [11-20]" << endl;
+		cout << "" << endl;
+		goto start;
+	}
+	else if (number >= 21 && number <= 30) {
+		cout << "Число [" << number << "] находится в диапозоне [21-30]" << endl;
+		cout << "" << endl;
+		goto start;
+	}
+	else if (number >= 31 && number <= 40) {
+		cout << "Число [" << number << "] находится в диапозоне [31-40]" << endl;
+		cout << "" << endl;
+		goto start;
+	}
+	else if (number >= 41 && number <= 50) {
+		cout << "Число [" << number << "] находится в диапозоне [41-50]" << endl;
+		cout << "" << endl;
+		goto start;
+	}
+	else if (number >= 51 && number <= 60) {
+		cout << "Число [" << number << "] находится в диапозоне [51-60]" << endl;
+		cout << "" << endl;
+		goto start;
+	}
+	else if (number >= 61 && number <= 70) {
+		cout << "Число [" << number << "] находится в диапозоне [61-70]" << endl;
+		cout << "" << endl;
+		goto start;
+	}
+	else if (number >= 71 && number <= 80) {
+		cout << "Число [" << number << "] находится в диапозоне [71-80]" << endl;
+		cout << "" << endl;
+		goto start;
+	}
+	else if (number >= 81 && number <= 90) {
+		cout << "Число [" << number << "] находится в диапозоне [81-90]" << endl;
+		cout << "" << endl;
+		goto start;
+	}
+	else if (number >= 91 && number <= 100) {
+		cout << "Число [" << number << "] находится в диапозоне [91-100]" << endl;
+		cout << "" << endl;
+		goto start;
+	}
+}

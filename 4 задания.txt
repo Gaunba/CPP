@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+start:
+
+	setlocale(0, "");
+	cout << "Введите любое число" << endl;
+	int number1;
+	cin >> number1;
+	int number2;
+	int checker = 0;
+	for (int i = 1; i < 10; i++) {
+		cout << "Решите пример " << number1 << " * " << i << endl;
+		cin >> number2;
+		if (number2 == number1 * i) {
+			checker += 1;
+		}
+		else {
+			cout << "Решение неверно";
+			goto end;
+		}
+	}
+	if (checker == 9) {
+		cout << "Поздравляем! Все ответы верны" << endl;
+		cout << "" << endl;
+		goto start;
+		end:
+		int _;
+		cin >> _;
+		return 0;
+	}
+}

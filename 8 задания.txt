@@ -1,0 +1,193 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	setlocale(0, "");
+	start:
+cout << "Переводчик" << endl;
+cout << "" << endl;
+cout << "[1]Русские слова" << endl;
+cout << "[2]Анлийские слова" << endl;
+cout << "" << endl;
+cout << "[3]Выйти" << endl;
+int trRW;
+int trEW;
+int ch;
+cin >> ch;
+switch (ch) {
+case 1:
+	cout << "Список русских слов" << endl;
+	cout << "[1]Дом" << endl;
+	cout << "[2]Работа" << endl;
+	cout << "[3]Кошка" << endl;
+	cout << "[4]Колледж" << endl;
+	cout << "[5]Хлеб" << endl;
+	cout << "[6]Собака" << endl;
+	cout << "[7]Лошадь" << endl;
+	cout << "[8]Дерево" << endl;
+	cout << "[9]Земля" << endl;
+	cout << "[10]Воздух" << endl;
+	cout << "[11]Сон" << endl;
+	cout << "[12]Огонь" << endl;
+	cout << "[13]Вода" << endl;
+	cout << "[14]Смех" << endl;
+	cout << "[15]Камень" << endl;
+	cin >> trRW;
+	switch (trRW) {
+	case 1:
+		cout << "Перевод: дом -> home" << endl;
+		goto start;
+		break;
+	case 2:
+		cout << "Перевод: работа -> work" << endl;
+		goto start;
+		break;
+	case 3:
+		cout << "Перевод: кошка -> cat" << endl;
+		goto start;
+		break;
+	case 4:
+		cout << "Перевод: колледж -> college" << endl;
+		goto start;
+		break;
+	case 5:
+		cout << "Перевод: хлеб -> bread" << endl;
+		goto start;
+		break;
+	case 6:
+		cout << "Перевод: собака -> dog" << endl;
+		goto start;
+		break;
+	case 7:
+		cout << "Перевод: лошадь -> horse" << endl;
+		goto start;
+		break;
+	case 8:
+		cout << "Перевод: дерево -> tree" << endl;
+		goto start;
+		break;
+	case 9:
+		cout << "Перевод: земля -> ground" << endl;
+		goto start;
+		break;
+	case 10:
+		cout << "Перевод: воздух -> air" << endl;
+		goto start;
+		break;
+	case 11:
+		cout << "Перевод: сон -> dream" << endl;
+		goto start;
+		break;
+	case 12:
+		cout << "Перевод: огонь -> fire" << endl;
+		goto start;
+		break;
+	case 13:
+		cout << "Перевод: вода -> water" << endl;
+		goto start;
+		break;
+	case 14:
+		cout << "Перевод: смех -> laugh" << endl;
+		goto start;
+		break;
+	case 15:
+		cout << "Перевод: камень -> stone" << endl;
+		goto start;
+		break;
+	default:
+		cout << "Данного слова нет в списке" << endl;
+		goto start;
+		break;
+	}
+	break;
+case 2:
+	cout << "List of english words" << endl;
+	cout << "[1]Daughter" << endl;
+	cout << "[2]Dress" << endl;
+	cout << "[3]Puppet" << endl;
+	cout << "[4]Car" << endl;
+	cout << "[5]Candy" << endl;
+	cout << "[6]Sausage" << endl;
+	cout << "[7]Cheese" << endl;
+	cout << "[8]Face" << endl;
+	cout << "[9]Shooes" << endl;
+	cout << "[10]Box" << endl;
+	cout << "[11]Iron" << endl;
+	cout << "[12]Rain" << endl;
+	cout << "[13]Mouse" << endl;
+	cout << "[14]Eye" << endl;
+	cout << "[15]Chair" << endl;
+	cin >> trEW;
+	switch (trEW) {
+	case 1:
+		cout << "Translate: daughter -> дочь" << endl;
+		goto start;
+		break;
+	case 2:
+		cout << "Translate: dress -> платье" << endl;
+		goto start;
+		break;
+	case 3:
+		cout << "Translate: puppet -> кукла" << endl;
+		goto start;
+		break;
+	case 4:
+		cout << "Translate: car -> машина" << endl;
+		goto start;
+		break;
+	case 5:
+		cout << "Translate: candy -> конфета" << endl;
+		goto start;
+		break;
+	case 6:
+		cout << "Translate: sausage -> колбаса" << endl;
+		goto start;
+		break;
+	case 7:
+		cout << "Translate: cheese -> сыр" << endl;
+		goto start;
+		break;
+	case 8:
+		cout << "Translate: face -> лицо" << endl;
+		goto start;
+		break;
+	case 9:
+		cout << "Translate: shooes -> обувь" << endl;
+		goto start;
+		break;
+	case 10:
+		cout << "Translate: box -> коробка" << endl;
+		goto start;
+		break;
+	case 11:
+		cout << "Translate: iron -> железо" << endl;
+		goto start;
+		break;
+	case 12:
+		cout << "Translate: rain -> дождь" << endl;
+		goto start;
+		break;
+	case 13:
+		cout << "Translate: mouse -> мышь" << endl;
+		goto start;
+		break;
+	case 14:
+		cout << "Translate: eye -> глаз" << endl;
+		goto start;
+		break;
+	case 15:
+		cout << "Translate: chair -> стул" << endl;
+		goto start;
+		break;
+	default:
+		cout << "This word is not in the list" << endl;
+		goto start;
+		break;
+	}
+	break;
+    }
+
+	int _;
+	cin >> _;
+	return 0;
+}

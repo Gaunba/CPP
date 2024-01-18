@@ -1,0 +1,101 @@
+﻿#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	cout << "[1] INT\n";
+	cout << "[2] SHORT\n";
+	cout << "[3] LONG\n";
+	cout << "[4] FLOAT\n";
+	cout << "[5] DOUBLE\n";
+	cout << "[6] CHAR\n";
+	cout << "[7] BOOL\n";
+	cout << "[8] STRING\n\n";
+
+	cout << "[+]Выберите тип ";
+	int a;
+	cin >> a;
+	if (a == 1) {
+		system("cls");
+		cout << "Вы выброли тип INT\n\n";
+		const int I = 10;
+		int inti[I]{ 5,27,56,77,98,99,21,19,35,64};
+		for (int i = 0; i < I; i++) {
+			cout << "int= " << inti[i] << endl;
+		}
+
+
+	}
+	else if (a == 2) {
+		system("cls");
+		cout << "Вы выброли тип SHORT\n\n";
+		const int SH = 10;
+		short shortsh[SH]{ -32768,295,5641,7777,9889,-9999,2112,-19201,3553,32767 };
+		for (int i = 0; i < SH; i++) {
+			cout << "short= " << shortsh[i] << endl;
+		}
+
+	}
+	else if (a == 3) {
+		system("cls");
+		cout << "Вы выброли тип LONG\n\n";
+		const int L = 10;
+		long longl[L]{ 768,295,564,777,989,999,21,201,353,367 };
+		for (int i = 0; i < L; i++) {
+			cout << "long= " << longl[i] << endl;
+		}
+	}
+	else if (a == 4) {
+		system("cls");
+		cout << "Вы выброли тип FLOAT\n\n";
+		const int F = 10;
+		float floatf[F]{ 7.68,29.5,5.64,77.7,98.9,9.99,2.1,20.1,35.3,36.7 };
+		for (int i = 0; i < F; i++) {
+			cout << "float= " << floatf[i] << endl;
+		}
+	}
+	else if (a == 5) {
+		system("cls");
+		cout << "Вы выброли тип DOUBLE\n\n";
+		const int D = 10;
+		double doubled[D]{ 74.468,29.54,54.64,477.7,948.9,9.949,2.41,204.1,345.3,346.47 };
+		for (int i = 0; i < D; i++) {
+			cout << "double= " << doubled[i] << endl;
+		}
+	}
+	 else if (a == 6) {
+		system("cls");
+		cout << "Вы выброли тип CHAR\n\n";
+		const int CH = 10;
+		char charch[CH]{ 11,4,1,2,3,21,27,51,6,5 };
+		for (int i = 0; i < CH; i++) {
+			cout << "char= " << charch[i] << endl;
+		}
+	}
+	 else if (a == 7) {
+		system("cls");
+		cout << "Вы выброли тип BOOL\n\n";
+		const int B = 10;
+		bool boolb[B]{ true,false,true,true,true,false,false,true,false,false };
+		for (int i = 0; i < B; i++) {
+			cout << "BOOL= " << boolb[i] << endl;
+		}
+	}
+	 else if (a == 8) {
+		system("cls");
+		cout << "Вы выброли тип STRING\n\n";
+		const int S = 10;
+		string strings[S]{"Admin","User", "Admin", "Admin", "User", "User", "Admin", "User", "Admin", "Admin", };
+		for (int i = 0; i < S; i++) {
+			cout << "string= " << strings[i] << endl;
+		}
+	}
+
+
+
+
+	int _;
+	cin >> _;
+	return 0;
+}
+

@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+start:
+cout << "Выберите операцию" << endl;
+		cout << "1[+]" << endl;
+		cout << "2[-]" << endl;
+		cout << "3[*]" << endl;
+		cout << "4[/]" << endl;
+		cout << "5[%]" << endl;
+		int operation;
+		cin >> operation;
+		cout << "Теперь введите 2 числа" << endl;
+		int x;
+		int y;
+		cin >> x;
+		cin >> y;
+		if (operation == 4 && y == 0) {
+			cout << "На ноль делить нельзя";
+			goto end;
+		}
+		if (operation == 1) {
+			cout << x << " + " << y << " = " << x + y << endl;
+			cout << "" << endl;
+			goto start;
+		}
+		if (operation == 2) {
+			cout << x << " - " << y << " = " << x - y << endl;
+			cout << "" << endl;
+			goto start;
+		}
+		if (operation == 3) {
+			cout << x << " * " << y << " = " << x * y << endl;
+			cout << "" << endl;
+			goto start;
+		}
+		if (operation == 4) {
+			cout << x << " / " << y << " = " << x / y << endl;
+			cout << "" << endl;
+			goto start;
+		}
+		if (operation == 5) {
+			cout << x << " % " << y << " = " << x % y << endl;
+			cout << "" << endl;
+			goto start;
+		}
+end:
+	int _;
+	cin >> _;
+	return 0;
+}
